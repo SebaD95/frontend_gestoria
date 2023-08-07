@@ -4,78 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--<script src="https://cdn.tailwindcss.com"></script>-->
     <link rel="stylesheet" href="css/output.css" />
     <title>Gestoria</title>
   </head>
   <body style="background-color: rgba(8, 33, 64, 1)">
-    <div class="container">
+    <div>
       <!-- Header-->
       <div
-        style="
-          background: linear-gradient(
-              0deg,
-              rgba(5, 50, 91, 0.84),
-              rgba(8, 33, 63, 0.97)
-            ),
-            url('https://img.freepik.com/foto-gratis/dos-hombres-negocios-dandose-mano_1423-77.jpg?');
-          background-repeat: no-repeat;
-          background-size: cover;
-        "
-        class="grid grid-cols-1 h-screen w-screen text-white"
+        class="grid grid-cols-1 h-screen w-full text-white bg-main-image bg-no-repeat bg-cover"
       >
         <div>
           <nav class="flex justify-between lg:justify-start items-center">
             <div class="logo p-2 w-1/6">
-              <img src="img/logo.png" width="100" alt="" />
+              <img src="img/logo_2.png" width="100" alt="" />
             </div>
-            <div class="links">
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Sobre Nosotros</a></li>
-                <li><a href="#">Novedades</a></li>
-                <li><a href="#">Contacto</a></li>
+            <div class="links lg:block mr-20 hidden w-1/6 md:w-5/6">
+              <ul class="flex menu items-center justify-end gap-5">
+                <li><a href="#" class="link">Home</a></li>
+                <li><a href="#" class="link">Servicios</a></li>
+                <li><a href="#" class="link">Sobre Nosotros</a></li>
+                <li><a href="#" class="link">Novedades</a></li>
+                <li><a href="#" class="link">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="block lg:hidden w-1/6 lg:w-4/6">
+              <a href="#" class="link" id="mobile-menu">Menu</a>
+              <ul
+                class="mobile-links hidden w-full absolute z-50 left-0 text-center bg-gray-800"
+              >
+                <li><a href="#" class="link">Home</a></li>
+                <li><a href="#" class="link">Servicios</a></li>
+                <li><a href="#" class="link">Sobre Nosotros</a></li>
+                <li><a href="#" class="link">Novedades</a></li>
+                <li><a href="#" class="link">Contacto</a></li>
               </ul>
             </div>
           </nav>
-          <!-- <div class="text-left m-4">LOGO GESTORIA</div>
-          <div>
-            <ul class="flex justify-between items-center">
-              <li>Home</li>
-              <li>Servicios</li>
-              <li>Sobre Nosotros</li>
-              <li>Novedades</li>
-              <li>Contacto</li>
-            </ul>
-          </div> -->
         </div>
-        <div class="grid grid-rows-3">
+        <div class="grid grid-rows-none lg:grid-rows-3">
           <div>
-            <p class="text-left w-2/5 mx-60 text-4xl font-bold">
+            <h2 class="text-left mx-auto w-5/6 text-3xl font-bold lg:text-5xl lg:ml-12 lg:w-4/5 xl:text-5xl xl:ml-60 xl:w-1/2">
               Un estudio contable con espíritu innovador y valores
               tradicionales.
-            </p>
+            </h2>
           </div>
           <div>
-            <p class="text-left w-2/4 mx-60 text-lg">
+            <p class="text-left mx-auto w-5/6 text-base lg:ml-12 lg:w-4/5 lg:text-lg xl:ml-60 xl:text-lg xl:w-1/2">
               Apuntamos a la excelencia profesional con una perspectiva joven,
               enfocándonos en prestar servicios de nivel excepcional para
               satisfacer las necesidades de cada cliente
             </p>
           </div>
           <div>
-            <div class="mx-60">
-              <button class="bg-red-600 p-2 rounded text-white w-40 h-12 mr-12">
+            <div class="text-left mx-auto w-5/6 text-sm lg:ml-12 lg:w-4/5 lg:text-base xl:ml-60 xl:w-1/2">
+              <button class="bg-red-500 font-bold rounded text-white w-28 h-10 mr-8 lg:h-12 lg:w-40 lg:mr-12 xl:w-44 xl:h-14 xl:mr-20">
                 Contactanos
               </button>
-              <span>Nuestros servicios</span>
+              <span class="text-white w-28 h-10 mr-8 lg:w-40 lg:h-12 lg:mr-12 xl:w-44 xl:h-14 xl:mr-20">Nuestros servicios</span>
             </div>
           </div>
         </div>
         <div>
-          <div class="mx-60 mb-8">18 de Julio 841, Oficina 301, Montevideo</div>
-          <div class="mx-60">
+          <div class="text-left mx-auto w-5/6 text-sm lg:ml-12 lg:w-4/5 lg:text-md xl:ml-60 xl:w-1/2">18 de Julio 841, Oficina 301, Montevideo</div>
+          <div class="text-left mt-12 mx-auto w-5/6 text-sm lg:ml-12 lg:w-4/5 lg:text-md xl:ml-60 xl:w-1/2">
             <span class="mr-4">logo_1</span>
             <span>logo_2</span>
           </div>
@@ -85,7 +76,7 @@
 
       <!-- Quienes somos -->
       <div
-        class="grid grid-cols-2 gap-4 mx-auto mb-24 w-4/6 text-white text-center style='background-color: rgba(8, 33, 64, 1)"
+        class="grid grid-cols-1 xl:grid-cols-2 gap-4 mx-auto mb-24 w-5/6 sm:w-4/5 lg:w-5/6 xl:w-3/5 text-white text-center style='background-color: rgba(8, 33, 64, 1)"
       >
         <div class="mt-12 text-left">
           <p class="mb-8 font-bold text-5xl">¿Quiénes somos?</p>
@@ -112,13 +103,13 @@
             alt=""
           />
         </div>
-        <div class="col-end-2">
-          <hr class="text-red mt-8" />
-          <div class="grid grid-cols-6">
+        <div>
+          <hr class="text-red mt-8"/>
+          <div class="grid grid-cols-1 xl:grid-cols-6">
             <div class="mt-4 flex justify-center items-center">icono</div>
-            <div class="col-span-5">
-              <p class="mt-4 mb-1 text-left font-bold text-sm">Contactanos</p>
-              <p class="text-left text-3xl text-red-500 font-bold">
+            <div class="col-span-1 lg:col-span-5">
+              <p class="mt-4 mb-1 text-center xl:text-left font-bold text-sm">Contactanos</p>
+              <p class="text-center xl:text-left text-2xl lg:text-3xl text-red-500 font-bold">
                 +598 2901 3428
               </p>
             </div>
@@ -128,109 +119,87 @@
       <!-- Fin quienes somos-->
 
       <!-- Servicios-->
-      <div style="height: 500px" class="grid grid-cols-4 mb-24">
+      <div style="height: 500px" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 mb-24">
         <div
-          class="grid grid-rows-5 hover:opacity-70"
-          style="
-            background: linear-gradient(
-                0deg,
-                rgba(5, 50, 91, 0.84),
-                rgba(8, 33, 63, 0.97)
-              ),
-              url('https://actualicese.com/_ig/img/fotos/calculadora-calculo-finanzas-contabi.jpg');
-          "
+          class="grid grid-rows-5 hover:opacity-70 bg-service-image bg-no-repeat bg-cover"
         >
           <div class="row-span-3">
-            <p class="ml-8 mt-8 text-red-600 text-2xl font-bold">01.</p>
+            <p class="ml-4 lg:ml-8 mt-8 text-red-600 text-2xl font-bold">01.</p>
           </div>
           <div class="row-span-2">
-            <p class="ml-8 text-3xl text-white font-bold">
+            <p class="ml-4 lg:mx-8 text-3xl text-white font-bold">
               Asesoramiento legal
             </p>
-            <p class="ml-8 mt-4 text-white">
+            <p class="ml-4 lg:mx-8 mt-4 text-white">
               Confección de Estados Contables en cumplimiento con la Ley de
               Sociedades Comerciales.
             </p>
-            <p class="ml-8 mt-12 text-white font-bold">Ver más</p>
+            <p class="ml-4 lg:ml-8 mt-12 mb-8 text-white font-bold">Ver más</p>
           </div>
         </div>
         <div
-          class="grid grid-rows-5 hover:opacity-70"
-          style="
-            background: linear-gradient(
-                0deg,
-                rgba(5, 50, 91, 0.84),
-                rgba(8, 33, 63, 0.97)
-              ),
-              url('https://actualicese.com/_ig/img/fotos/calculadora-calculo-finanzas-contabi.jpg');
-          "
+          class="grid grid-rows-5 hover:opacity-70 bg-service-image bg-no-repeat bg-cover"
         >
           <div class="row-span-3">
-            <p class="ml-8 mt-8 text-red-600 text-2xl font-bold">02.</p>
+            <p class="ml-4 lg:ml-8 mt-8 text-red-600 text-2xl font-bold">02.</p>
           </div>
           <div class="row-span-2">
-            <p class="ml-8 text-3xl text-white font-bold">
+            <p class="ml-4 lg:mx-8 text-3xl text-white font-bold">
               Asesoramiento legal
             </p>
-            <p class="ml-8 mt-4 text-white">
+            <p class="ml-4 lg:mx-8 mt-4 text-white">
               Confección de Estados Contables en cumplimiento con la Ley de
               Sociedades Comerciales.
             </p>
-            <p class="ml-8 mt-12 text-white font-bold">Ver más</p>
+            <p class="ml-4 lg:ml-8 mt-12 mb-8 text-white font-bold">Ver más</p>
           </div>
         </div>
         <div
-          class="grid grid-rows-5 hover:opacity-70"
-          style="
-            background: linear-gradient(
-                0deg,
-                rgba(5, 50, 91, 0.84),
-                rgba(8, 33, 63, 0.97)
-              ),
-              url('https://actualicese.com/_ig/img/fotos/calculadora-calculo-finanzas-contabi.jpg');
-          "
+          class="grid grid-rows-5 hover:opacity-70 bg-service-image bg-no-repeat bg-cover"
         >
           <div class="row-span-3">
-            <p class="ml-8 mt-8 text-red-600 text-2xl font-bold">03.</p>
+            <p class="ml-4 lg:ml-8 mt-8 text-red-600 text-2xl font-bold">03.</p>
           </div>
           <div class="row-span-2">
-            <p class="ml-8 text-3xl text-white font-bold">
+            <p class="ml-4 lg:mx-8 text-3xl text-white font-bold">
               Asesoramiento legal
             </p>
-            <p class="ml-8 mt-4 text-white">
+            <p class="ml-4 lg:mx-8 mt-4 text-white">
               Confección de Estados Contables en cumplimiento con la Ley de
               Sociedades Comerciales.
             </p>
-            <p class="ml-8 mt-12 text-white font-bold">Ver más</p>
+            <p class="ml-4 lg:ml-8 mt-12 mb-8 text-white font-bold">Ver más</p>
           </div>
         </div>
         <div
-          class="grid grid-rows-5 hover:opacity-70"
-          style="
-            background: linear-gradient(
-                0deg,
-                rgba(5, 50, 91, 0.84),
-                rgba(8, 33, 63, 0.97)
-              ),
-              url('https://actualicese.com/_ig/img/fotos/calculadora-calculo-finanzas-contabi.jpg');
-          "
+          class="grid grid-rows-5 hover:opacity-70 bg-service-image bg-no-repeat bg-cover"
         >
           <div class="row-span-3">
-            <p class="ml-8 mt-8 text-red-600 text-2xl font-bold">04.</p>
+            <p class="ml-4 lg:ml-8 mt-8 text-red-600 text-2xl font-bold">04.</p>
           </div>
           <div class="row-span-2">
-            <p class="ml-8 text-3xl text-white font-bold">
+            <p class="ml-4 lg:mx-8 text-3xl text-white font-bold">
               Asesoramiento legal
             </p>
-            <p class="ml-8 mt-4 text-white">
+            <p class="ml-4 lg:mx-8 mt-4 text-white">
               Confección de Estados Contables en cumplimiento con la Ley de
               Sociedades Comerciales.
             </p>
-            <p class="ml-8 mt-12 text-white font-bold">Ver más</p>
+            <p class="ml-4 lg:ml-8 mt-12 mb-8 text-white font-bold">Ver más</p>
           </div>
         </div>
       </div>
       <!-- Fin servicios-->
     </div>
   </body>
+
+  <script>
+    const menuButton = document.querySelector("#mobile-menu");
+
+    menuButton.addEventListener("click", (e) => {
+      const menu = document.querySelector(".mobile-links");
+
+      menu.classList.toggle("hidden");
+    });
+  </script>
 </html>
