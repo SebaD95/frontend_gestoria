@@ -659,8 +659,17 @@ video {
 .bg-main-image {
   background-image: linear-gradient(0deg,rgba(5, 50, 91, 0.84),rgba(8, 33, 63, 0.97)), url(https://img.freepik.com/foto-gratis/dos-hombres-negocios-dandose-mano_1423-77.jpg?);
 }
-.bg-service-image {
+.bg-service-image_1 {
   background-image: linear-gradient(0deg,rgba(5, 50, 91, 0.84),rgba(8, 33, 63, 0.97)), url(https://actualicese.com/_ig/img/fotos/calculadora-calculo-finanzas-contabi.jpg);
+}
+.bg-service-image_2 {
+  background-image: linear-gradient(0deg,rgba(5, 50, 91, 0.84),rgba(8, 33, 63, 0.97)), url(https://cba.ucb.edu.bo/blog/wp-content/uploads/2021/04/joven-usando-calculadora-calcular-facturas-oficina-casa_38391-114.jpg);
+}
+.bg-service-image_3 {
+  background-image: linear-gradient(0deg,rgba(5, 50, 91, 0.84),rgba(8, 33, 63, 0.97)), url(https://www.insunte.edu.mx/es/wp-content/uploads/2022/05/1584184812_412499_1584185534_noticia_normal-1200x675-1.png);
+}
+.bg-service-image_4 {
+  background-image: linear-gradient(0deg,rgba(5, 50, 91, 0.84),rgba(8, 33, 63, 0.97)), url(https://www.ucundinamarca.edu.co/images/2021/03/01/dia-contador.jpg);
 }
 .bg-cover {
   background-size: cover;
@@ -777,9 +786,9 @@ video {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
 }
-.text-red-600 {
+.text-slate-300 {
   --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
+  color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 .text-slate-400 {
   --tw-text-opacity: 1;
