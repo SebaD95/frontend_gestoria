@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Gestoria</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/output.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-  <title>Gestoria</title>
-</head>
-
-<body style="background-color: rgba(8, 33, 64, 1)">
-  <div>
-    <!-- Header-->
-    <!-- <div
+  <body style="background-color: rgba(8, 33, 64, 1)">
+    <div>
+      <!-- Header-->
+      <!-- <div
         class="grid grid-cols-1 h-screen w-full text-slate-300 bg-main-image bg-no-repeat bg-cover"
       >
         <div>
@@ -101,366 +103,583 @@
           </div>
         </div>
       </div> -->
-    <div class="grid grid-cols-1 h-screen w-full text-slate-300 bg-main-image bg-no-repeat bg-cover">
-      <div>
-        <nav class="flex justify-between bg-teal-700 lg:justify-start items-center">
-          <div class="links mx-auto lg:block hidden">
-            <ul class="flex menu items-center gap-5">
-              <li><a href="#" class="link">Home</a></li>
-              <li><a href="#">|</a></li>
-              <li><a href="#" class="link">Servicios</a></li>
-              <li><a href="#">|</a></li>
-              <li><a href="#" class="link">Sobre Nosotros</a></li>
-              <li><a href="#">|</a></li>
-              <li><a href="#" class="link">Novedades</a></li>
-              <li><a href="#">|</a></li>
-              <li><a href="#" class="link">Contacto</a></li>
-            </ul>
-          </div>
-          <div class="w-full lg:hidden">
-            <a href="#" class="link text-2xl mr-12 text-right" id="mobile-menu"><i class="fa-solid fa-bars"></i></a>
-            <ul class="mobile-links hidden w-full absolute z-50 left-0 text-center bg-teal-700">
-              <li><a href="#" class="link">Home</a></li>
-              <li><a href="#" class="link">Servicios</a></li>
-              <li><a href="#" class="link">Sobre Nosotros</a></li>
-              <li><a href="#" class="link">Novedades</a></li>
-              <li><a href="#" class="link">Contacto</a></li>
-            </ul>
-          </div>
-        </nav>
+      <div
+        class="grid grid-cols-1 h-screen w-full text-slate-300 bg-main-image bg-no-repeat bg-cover"
+      >
         <div>
-          <div class="logo mt-24 lg:mt-40">
-            <div>
-              <img src="img/logo_3.png" class="scale-150 mx-auto" width="100" alt="" />
+          <nav
+            class="flex justify-between bg-teal-700 lg:justify-start items-center"
+          >
+            <div class="links mx-auto lg:block hidden">
+              <ul class="flex menu items-center gap-5">
+                <li><a href="#" class="link">Home</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#" class="link">Servicios</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#" class="link">Sobre Nosotros</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#" class="link">Novedades</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#" class="link">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="w-full lg:hidden">
+              <a
+                href="#"
+                class="link text-2xl mr-12 text-right"
+                id="mobile-menu"
+                ><i class="fa-solid fa-bars"></i
+              ></a>
+              <ul
+                class="mobile-links hidden w-full absolute z-50 left-0 text-center bg-teal-700"
+              >
+                <li><a href="#" class="link">Home</a></li>
+                <li><a href="#" class="link">Servicios</a></li>
+                <li><a href="#" class="link">Sobre Nosotros</a></li>
+                <li><a href="#" class="link">Novedades</a></li>
+                <li><a href="#" class="link">Contacto</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div>
+            <div class="logo mt-24 lg:mt-40">
+              <div>
+                <img
+                  src="img/logo_3.png"
+                  class="scale-150 mx-auto"
+                  width="100"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="mt-12 lg:mt-14 text-center mx-auto">
+              <h2
+                class="mx-auto w-5/6 text-3xl font-bold lg:text-5xl lg:w-4/5 xl:text-5xl xl:w-1/2"
+              >
+                Un estudio contable con espíritu innovador y valores
+                tradicionales
+              </h2>
+              <p
+                class="text-center mt-12 lg:mt-14 mx-auto w-5/6 text-base lg:w-4/5 lg:text-lg xl:text-lg xl:w-1/2"
+              >
+                Apuntamos a la excelencia profesional con una perspectiva joven,
+                enfocándonos en prestar servicios de nivel excepcional para
+                satisfacer las necesidades de cada cliente
+              </p>
+              <div
+                class="mx-auto mt-12 lg:mt-14 w-5/6 text-sm lg:w-4/5 lg:text-base xl:w-1/2"
+              >
+                <button
+                  class="bg-teal-700 mb-4 md:mb-0 font-bold rounded text-slate-300 w-full md:w-28 h-10 lg:h-12 lg:w-40 xl:w-44 xl:h-14"
+                >
+                  Contactanos
+                </button>
+              </div>
+              <div>
+                <div
+                  class="mx-auto mt-12 lg:mt-14 w-5/6 text-center text-sm lg:w-4/5 lg:text-md xl:w-1/2"
+                >
+                  18 de Julio 841, Oficina 301, Montevideo
+                </div>
+                <div
+                  class="mt-12 lg:mt-14 mx-auto w-5/6 text-sm lg:w-4/5 lg:text-md xl:w-1/2"
+                >
+                  <span class="mr-4 text-md text-2xl"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></span>
+                  <span class="text-md text-2xl"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></span>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="mt-12 lg:mt-14 text-center mx-auto">
-            <h2 class="mx-auto w-5/6 text-3xl font-bold lg:text-5xl lg:w-4/5 xl:text-5xl xl:w-1/2">
-              Un estudio contable con espíritu innovador y valores
-              tradicionales
-            </h2>
-            <p class="text-center mt-12 lg:mt-14 mx-auto w-5/6 text-base lg:w-4/5 lg:text-lg xl:text-lg xl:w-1/2">
-              Apuntamos a la excelencia profesional con una perspectiva joven,
-              enfocándonos en prestar servicios de nivel excepcional para
-              satisfacer las necesidades de cada cliente
+        </div>
+      </div>
+      <!--- Fin header -->
+      <!-- Quienes somos -->
+      <div class="bg-about-us-image bg-cover bg-no-repeat">
+        <div
+          class="grid grid-cols-1 xl:grid-cols-2 gap-4 mx-auto pb-12 w-5/6 sm:w-4/5 lg:w-5/6 xl:w-3/5 text-slate-300 text-center style='background-color: rgba(8, 33, 64, 1)"
+        >
+          <div class="flex flex-col justify-center text-left">
+            <p class="mb-8 font-bold text-5xl">¿Quiénes somos?</p>
+            <p class="mb-8">
+              Census es un estudio contable integrado por un equipo
+              multidisciplinario de profesionales.
             </p>
-            <div class="mx-auto mt-12 lg:mt-14 w-5/6 text-sm lg:w-4/5 lg:text-base xl:w-1/2">
-              <button
-                class="bg-teal-700 mb-4 md:mb-0 font-bold rounded text-slate-300 w-full md:w-28 h-10 lg:h-12 lg:w-40 xl:w-44 xl:h-14">
-                Contactanos
-              </button>
-            </div>
-            <div>
-              <div class="mx-auto mt-12 lg:mt-14 w-5/6 text-center text-sm lg:w-4/5 lg:text-md xl:w-1/2">
-                18 de Julio 841, Oficina 301, Montevideo
-              </div>
-              <div class="mt-12 lg:mt-14 mx-auto w-5/6 text-sm lg:w-4/5 lg:text-md xl:w-1/2">
-                <span class="mr-4 text-md text-2xl"><i class="fa-brands fa-instagram"></i></span>
-                <span class="text-md text-2xl"><i class="fa-brands fa-linkedin"></i></span>
-              </div>
-            </div>
+            <p class="mb-8">
+              Nos caracteriza nuestro fuerte foco en la eficiencia y el
+              dinamismo. Nuestras metodologías y capital humano nos permiten
+              trabajar tanto con Pymes como con empresas de gran tamaño,
+              ajustando nuestros en servicios en base a requerimientos de cada
+              cliente.
+            </p>
+            <p>
+              Ofrecemos un servicio de alto nivel profesional con soluciones
+              concretas a las necesidades del cliente, acompañándolo en las
+              distintas etapas de su crecimiento.
+            </p>
           </div>
+          <div class="flex justify-center items-center">
+            <img class="bg-cover bg-no-repeat" src="./img/Foto.png" alt="" />
+          </div>
+          <div></div>
         </div>
       </div>
-    </div>
-    <!--- Fin header -->
 
+      <!-- Fin quienes somos-->
+      <!-- Servicios-->
+      <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
+        <div
+          class="grid grid-rows-2 md:grid-rows-3 lg:grid-rows-5 hover:opacity-70 bg-service-image_1 bg-no-repeat bg-cover"
+        >
+          <div class="row-span-3"></div>
 
-    <!-- Servicios-->
-    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 mt-20">
-      <div
-        class="grid grid-rows-2 md:grid-rows-3 lg:grid-rows-5 hover:opacity-70 bg-service-image_1 bg-no-repeat bg-cover">
-        <div class="row-span-3">
-        </div>
-        <div class="row-span-2">
-          <p class="ml-4 lg:mx-8 text-3xl text-slate-300 font-bold">
-            Asesoramiento contable
-          </p>
-          <p class="ml-4 lg:mx-8 mt-4 text-slate-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ab
-            incidunt! Iste a eaque nulla.
-          </p>
-          <p class="ml-4 lg:ml-8 mt-12 mb-8 text-slate-300 font-bold">
-            Ver más&nbsp;&nbsp;<i class="fa-solid fa-arrow-right text-sm"></i>
-          </p>
-        </div>
-      </div>
-      <div
-        class="grid grid-rows-2 md:grid-rows-3 lg:grid-rows-5 hover:opacity-70 bg-service-image_2 bg-no-repeat bg-cover">
-        <div class="row-span-3">
-        </div>
-        <div class="row-span-2">
-          <p class="ml-4 lg:mx-8 text-3xl text-slate-300 font-bold">
-            Asesoramiento fiscal
-          </p>
-          <p class="ml-4 lg:mx-8 mt-4 text-slate-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ab
-            incidunt! Iste a eaque nulla.
-          </p>
-          <p class="ml-4 lg:ml-8 mt-12 mb-8 text-slate-300 font-bold">
-            Ver más&nbsp;&nbsp;<i class="fa-solid fa-arrow-right text-sm"></i>
-          </p>
-        </div>
-      </div>
-      <div
-        class="grid grid-rows-2 md:grid-rows-3 lg:grid-rows-5 hover:opacity-70 bg-service-image_3 bg-no-repeat bg-cover">
-        <div class="row-span-3">
-        </div>
-        <div class="row-span-2">
-          <p class="ml-4 lg:mx-8 text-3xl text-slate-300 font-bold">
-            Asesoramiento laboral
-          </p>
-          <p class="ml-4 lg:mx-8 mt-4 text-slate-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ab
-            incidunt! Iste a eaque nulla.
-          </p>
-          <p class="ml-4 lg:ml-8 mt-12 mb-8 text-slate-300 font-bold">
-            Ver más&nbsp;&nbsp;<i class="fa-solid fa-arrow-right text-sm"></i>
-          </p>
-        </div>
-      </div>
-      <div
-        class="grid grid-rows-2 md:grid-rows-3 lg:grid-rows-5 hover:opacity-70 bg-service-image_4 bg-no-repeat bg-cover">
-        <div class="row-span-3">
-        </div>
-        <div class="row-span-2">
-          <p class="ml-4 lg:mx-8 text-3xl text-slate-300 font-bold">
-            Asesoramiento financiero
-          </p>
-          <p class="ml-4 lg:mx-8 mt-4 text-slate-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ab
-            incidunt! Iste a eaque nulla.
-          </p>
-          <p class="ml-4 lg:ml-8 mt-12 mb-8 text-slate-300 font-bold">
-            Ver más&nbsp;&nbsp;<i class="fa-solid fa-arrow-right text-sm"></i>
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- Fin servicios-->
-    <!-- Caracteristicas-->
-    <div class="bg-feature-image bg-cover bg-no-repeat">
-      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mx-auto w-5/6 md:w-4/5 2xl:w-2/3 py-24">
-        <div class="flex flex-col items-center p-8 border-2 border-slate-500 rounded bg-slate-800 bg-opacity-50">
-          <div class="p-5 rounded-full bg-slate-600">
-            <i class="fa-solid fa-gear text-5xl text-slate-400"></i>
-          </div>
-          <div class="py-3 pt-5 pb-0 text-slate-300 font-bold text-3xl">
-            Titulo
-          </div>
-          <div class="p-3 text-center text-slate-400">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
-            magni sunt quod expedita ad. Minus magnam ipsam praesentium non
-            sint eligendi? Assumenda suscipit hic natus voluptates veritatis,
-            quia quaerat nemo.
+          <div
+            class="row-span-2 row-start-3 bg-gradient-to-r from-[#05325B] to-[#08213F] opacity-95"
+          >
+            <p class="ml-4 mt-2 lg:mx-8 text-3xl text-slate-300 font-bold">
+              Asesoramiento contable
+            </p>
+            <p class="ml-4 lg:mx-8 mt-4 text-slate-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ab
+              incidunt! Iste a eaque nulla.
+            </p>
+            <p class="ml-4 lg:ml-8 mt-12 mb-8 text-slate-300 font-bold">
+              Ver más&nbsp;&nbsp;<i class="fa-solid fa-arrow-right text-sm"></i>
+            </p>
           </div>
         </div>
-        <div class="flex flex-col items-center p-8 border-2 border-slate-500 rounded bg-slate-800 bg-opacity-50">
-          <div class="p-5 rounded-full bg-slate-600">
-            <i class="fa-solid fa-gear text-5xl text-slate-400"></i>
-          </div>
-          <div class="py-3 pt-5 pb-0 text-slate-300 font-bold text-3xl">
-            Titulo
-          </div>
-          <div class="p-3 text-center text-slate-400">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
-            magni sunt quod expedita ad. Minus magnam ipsam praesentium non
-            sint eligendi? Assumenda suscipit hic natus voluptates veritatis,
-            quia quaerat nemo.
-          </div>
-        </div>
-        <div class="flex flex-col items-center p-8 border-2 border-slate-500 rounded bg-slate-800 bg-opacity-50">
-          <div class="p-5 rounded-full bg-slate-600">
-            <i class="fa-solid fa-gear text-5xl text-slate-400"></i>
-          </div>
-          <div class="py-3 pt-5 pb-0 text-slate-300 font-bold text-3xl">
-            Titulo
-          </div>
-          <div class="p-3 text-center text-slate-400">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
-            magni sunt quod expedita ad. Minus magnam ipsam praesentium non
-            sint eligendi? Assumenda suscipit hic natus voluptates veritatis,
-            quia quaerat nemo.
+        <div
+          class="grid grid-rows-2 md:grid-rows-3 lg:grid-rows-5 hover:opacity-70 bg-service-image_2 bg-no-repeat bg-cover"
+        >
+          <div class="row-span-3"></div>
+          <div
+            class="row-span-2 row-start-3 bg-gradient-to-r from-[#05325B] to-[#08213F] opacity-95"
+          >
+            <p class="ml-4 mt-2 lg:mx-8 text-3xl text-slate-300 font-bold">
+              Asesoramiento fiscal
+            </p>
+            <p class="ml-4 lg:mx-8 mt-4 text-slate-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ab
+              incidunt! Iste a eaque nulla.
+            </p>
+            <p class="ml-4 lg:ml-8 mt-12 mb-8 text-slate-300 font-bold">
+              Ver más&nbsp;&nbsp;<i class="fa-solid fa-arrow-right text-sm"></i>
+            </p>
           </div>
         </div>
-        <div class="flex flex-col items-center p-8 border-2 border-slate-500 rounded bg-slate-800 bg-opacity-50">
-          <div class="p-5 rounded-full bg-slate-600">
-            <i class="fa-solid fa-gear text-5xl text-slate-400"></i>
-          </div>
-          <div class="py-3 pt-5 pb-0 text-slate-300 font-bold text-3xl">
-            Titulo
-          </div>
-          <div class="p-3 text-center text-slate-400">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
-            magni sunt quod expedita ad. Minus magnam ipsam praesentium non
-            sint eligendi? Assumenda suscipit hic natus voluptates veritatis,
-            quia quaerat nemo.
-          </div>
-        </div>
-        <div class="flex flex-col items-center p-8 border-2 border-slate-500 rounded bg-slate-800 bg-opacity-50">
-          <div class="p-5 rounded-full bg-slate-600">
-            <i class="fa-solid fa-gear text-5xl text-slate-400"></i>
-          </div>
-          <div class="py-3 pt-5 pb-0 text-slate-300 font-bold text-3xl">
-            Titulo
-          </div>
-          <div class="p-3 text-center text-slate-400">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
-            magni sunt quod expedita ad. Minus magnam ipsam praesentium non
-            sint eligendi? Assumenda suscipit hic natus voluptates veritatis,
-            quia quaerat nemo.
+        <div
+          class="grid grid-rows-2 md:grid-rows-3 lg:grid-rows-5 hover:opacity-70 bg-service-image_3 bg-no-repeat bg-cover"
+        >
+          <div class="row-span-3"></div>
+          <div
+            class="row-span-2 row-start-3 bg-gradient-to-r from-[#05325B] to-[#08213F] opacity-95"
+          >
+            <p class="ml-4 mt-2 lg:mx-8 text-3xl text-slate-300 font-bold">
+              Asesoramiento laboral
+            </p>
+            <p class="ml-4 lg:mx-8 mt-4 text-slate-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ab
+              incidunt! Iste a eaque nulla.
+            </p>
+            <p class="ml-4 lg:ml-8 mt-12 mb-8 text-slate-300 font-bold">
+              Ver más&nbsp;&nbsp;<i class="fa-solid fa-arrow-right text-sm"></i>
+            </p>
           </div>
         </div>
-        <div class="flex flex-col items-center p-8 border-2 border-slate-500 rounded bg-slate-800 bg-opacity-50">
-          <div class="p-5 rounded-full bg-slate-600">
-            <i class="fa-solid fa-gear text-5xl text-slate-400"></i>
-          </div>
-          <div class="py-3 pt-5 pb-0 text-slate-300 font-bold text-3xl">
-            Titulo
-          </div>
-          <div class="p-3 text-center text-slate-400">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
-            magni sunt quod expedita ad. Minus magnam ipsam praesentium non
-            sint eligendi? Assumenda suscipit hic natus voluptates veritatis,
-            quia quaerat nemo.
+        <div
+          class="grid grid-rows-2 md:grid-rows-3 lg:grid-rows-5 hover:opacity-70 bg-service-image_4 bg-no-repeat bg-cover"
+        >
+          <div class="row-span-3"></div>
+          <div
+            class="row-span-2 row-start-3 bg-gradient-to-r from-[#05325B] to-[#08213F] opacity-95"
+          >
+            <p class="ml-4 mt-2 lg:mx-8 text-3xl text-slate-300 font-bold">
+              Asesoramiento financiero
+            </p>
+            <p class="ml-4 lg:mx-8 mt-4 text-slate-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ab
+              incidunt! Iste a eaque nulla.
+            </p>
+            <p class="ml-4 lg:ml-8 mt-12 mb-8 text-slate-300 font-bold">
+              Ver más&nbsp;&nbsp;<i class="fa-solid fa-arrow-right text-sm"></i>
+            </p>
           </div>
         </div>
       </div>
-    </div>
-
-    <!--Fin caracteristicas-->
-    <!--Opiniones-->
-    <div class="bg-coment-image bg-cover bg-no-repeat">
-      <div class="grid grid-cols-1 xl:grid-cols-3 gap-6 px-8 py-20">
-        <div class="rounded bg-slate-600 bg-opacity-60 p-12">
-          <div class="text-slate-400 text-xl pb-8">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
-            sequi, deleniti sapiente provident eligendi, placeat sunt vel cum
-            delectus tempore laboriosam libero. Adipisci exercitationem, iste
-            provident incidunt quia eligendi reprehenderit.
-          </div>
-          <div class="flex flex-row">
-            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" width="45" alt=""
-              class="mr-4 object-scale-down" />
-            <div>
-              <div class="text-gray-300 text-lg">Nombre</div>
-              <div class="text-gray-400">
-                Lorem ipsum dolor sit amet consectetur
-              </div>
+      <!-- Fin servicios-->
+      <!-- Caracteristicas-->
+      <div class="bg-feature-image bg-cover bg-no-repeat">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mx-auto w-5/6 md:w-4/5 2xl:w-2/3 py-24"
+        >
+          <div
+            class="flex flex-col items-center p-8 border-2 border-slate-500 rounded bg-slate-800 bg-opacity-50"
+          >
+            <div class="p-5 rounded-full bg-slate-600">
+              <i class="fa-solid fa-gear text-5xl text-slate-400"></i>
+            </div>
+            <div class="py-3 pt-5 pb-0 text-slate-300 font-bold text-3xl">
+              Titulo
+            </div>
+            <div class="p-3 text-center text-slate-400">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+              magni sunt quod expedita ad. Minus magnam ipsam praesentium non
+              sint eligendi? Assumenda suscipit hic natus voluptates veritatis,
+              quia quaerat nemo.
             </div>
           </div>
-        </div>
-        <div class="rounded bg-slate-600 bg-opacity-60 p-12">
-          <div class="text-slate-400 text-xl pb-8">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
-            sequi, deleniti sapiente provident eligendi, placeat sunt vel cum
-            delectus tempore laboriosam libero. Adipisci exercitationem, iste
-            provident incidunt quia eligendi reprehenderit. Lorem ipsum dolor
-            sit amet, consectetur adipisicing elit. Deserunt sequi, deleniti
-            sapiente provident
-          </div>
-          <div class="flex flex-row">
-            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" width="45" alt=""
-              class="mr-4 object-scale-down" />
-            <div>
-              <div class="text-gray-300 text-lg">Nombre</div>
-              <div class="text-gray-400">
-                Lorem ipsum dolor sit amet consectetur
-              </div>
+          <div
+            class="flex flex-col items-center p-8 border-2 border-slate-500 rounded bg-slate-800 bg-opacity-50"
+          >
+            <div class="p-5 rounded-full bg-slate-600">
+              <i class="fa-solid fa-gear text-5xl text-slate-400"></i>
+            </div>
+            <div class="py-3 pt-5 pb-0 text-slate-300 font-bold text-3xl">
+              Titulo
+            </div>
+            <div class="p-3 text-center text-slate-400">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+              magni sunt quod expedita ad. Minus magnam ipsam praesentium non
+              sint eligendi? Assumenda suscipit hic natus voluptates veritatis,
+              quia quaerat nemo.
             </div>
           </div>
-        </div>
-        <div class="rounded bg-slate-600 bg-opacity-60 p-12">
-          <div class="text-slate-400 text-xl pb-8">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
-            sequi, deleniti sapiente provident eligendi, placeat sunt vel cum
-            delectus tempore laboriosam libero. Adipisci exercitationem, iste
-            provident incidunt quia eligendi reprehenderit. Lorem ipsum, dolor
-            sit amet consectetur adipisicing elit. Ratione nihil perspiciatis
-            magnam placeat dolor reiciendis veniam odit ut distinctio,
-            suscipit modi laborum quos quo corporis, dicta delectus aliquid
-            inventore adipisci?
+          <div
+            class="flex flex-col items-center p-8 border-2 border-slate-500 rounded bg-slate-800 bg-opacity-50"
+          >
+            <div class="p-5 rounded-full bg-slate-600">
+              <i class="fa-solid fa-gear text-5xl text-slate-400"></i>
+            </div>
+            <div class="py-3 pt-5 pb-0 text-slate-300 font-bold text-3xl">
+              Titulo
+            </div>
+            <div class="p-3 text-center text-slate-400">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+              magni sunt quod expedita ad. Minus magnam ipsam praesentium non
+              sint eligendi? Assumenda suscipit hic natus voluptates veritatis,
+              quia quaerat nemo.
+            </div>
           </div>
-          <div class="flex flex-row">
-            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" width="45" alt=""
-              class="mr-4 object-scale-down" />
-            <div>
-              <div class="text-gray-300 text-lg">Nombre</div>
-              <div class="text-gray-400">
-                Lorem ipsum dolor sit amet consectetur
-              </div>
+          <div
+            class="flex flex-col items-center p-8 border-2 border-slate-500 rounded bg-slate-800 bg-opacity-50"
+          >
+            <div class="p-5 rounded-full bg-slate-600">
+              <i class="fa-solid fa-gear text-5xl text-slate-400"></i>
+            </div>
+            <div class="py-3 pt-5 pb-0 text-slate-300 font-bold text-3xl">
+              Titulo
+            </div>
+            <div class="p-3 text-center text-slate-400">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+              magni sunt quod expedita ad. Minus magnam ipsam praesentium non
+              sint eligendi? Assumenda suscipit hic natus voluptates veritatis,
+              quia quaerat nemo.
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center p-8 border-2 border-slate-500 rounded bg-slate-800 bg-opacity-50"
+          >
+            <div class="p-5 rounded-full bg-slate-600">
+              <i class="fa-solid fa-gear text-5xl text-slate-400"></i>
+            </div>
+            <div class="py-3 pt-5 pb-0 text-slate-300 font-bold text-3xl">
+              Titulo
+            </div>
+            <div class="p-3 text-center text-slate-400">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+              magni sunt quod expedita ad. Minus magnam ipsam praesentium non
+              sint eligendi? Assumenda suscipit hic natus voluptates veritatis,
+              quia quaerat nemo.
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center p-8 border-2 border-slate-500 rounded bg-slate-800 bg-opacity-50"
+          >
+            <div class="p-5 rounded-full bg-slate-600">
+              <i class="fa-solid fa-gear text-5xl text-slate-400"></i>
+            </div>
+            <div class="py-3 pt-5 pb-0 text-slate-300 font-bold text-3xl">
+              Titulo
+            </div>
+            <div class="p-3 text-center text-slate-400">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+              magni sunt quod expedita ad. Minus magnam ipsam praesentium non
+              sint eligendi? Assumenda suscipit hic natus voluptates veritatis,
+              quia quaerat nemo.
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!--Fin opiniones-->
-    <!-- Quienes somos -->
-    <div class="bg-about-us-image bg-cover bg-no-repeat">
-      <div
-        class="grid grid-cols-1 xl:grid-cols-2 gap-4 mx-auto pb-12 w-5/6 sm:w-4/5 lg:w-5/6 xl:w-3/5 text-slate-300 text-center style='background-color: rgba(8, 33, 64, 1)">
-        <div class="flex flex-col justify-center text-left">
-          <p class="mb-8 font-bold text-5xl">¿Quiénes somos?</p>
-          <p class="mb-8">
-            Census es un estudio contable integrado por un equipo
-            multidisciplinario de profesionales.
-          </p>
-          <p class="mb-8">
-            Nos caracteriza nuestro fuerte foco en la eficiencia y el
-            dinamismo. Nuestras metodologías y capital humano nos permiten
-            trabajar tanto con Pymes como con empresas de gran tamaño,
-            ajustando nuestros en servicios en base a requerimientos de cada
-            cliente.
-          </p>
-          <p>
-            Ofrecemos un servicio de alto nivel profesional con soluciones
-            concretas a las necesidades del cliente, acompañándolo en las
-            distintas etapas de su crecimiento.
-          </p>
+
+      <!--Fin caracteristicas-->
+      <!--Opiniones-->
+      <div class="bg-coment-image bg-cover bg-no-repeat">
+        <div class="grid grid-cols-1 xl:grid-cols-3 gap-6 px-8 py-20">
+          <div class="rounded bg-slate-600 bg-opacity-60 p-12">
+            <div class="text-slate-400 text-xl pb-8">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+              sequi, deleniti sapiente provident eligendi, placeat sunt vel cum
+              delectus tempore laboriosam libero. Adipisci exercitationem, iste
+              provident incidunt quia eligendi reprehenderit.
+            </div>
+            <div class="flex flex-row">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
+                width="45"
+                alt=""
+                class="mr-4 object-scale-down"
+              />
+              <div>
+                <div class="text-gray-300 text-lg">Nombre</div>
+                <div class="text-gray-400">
+                  Lorem ipsum dolor sit amet consectetur
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rounded bg-slate-600 bg-opacity-60 p-12">
+            <div class="text-slate-400 text-xl pb-8">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+              sequi, deleniti sapiente provident eligendi, placeat sunt vel cum
+              delectus tempore laboriosam libero. Adipisci exercitationem, iste
+              provident incidunt quia eligendi reprehenderit. Lorem ipsum dolor
+              sit amet, consectetur adipisicing elit. Deserunt sequi, deleniti
+              sapiente provident
+            </div>
+            <div class="flex flex-row">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
+                width="45"
+                alt=""
+                class="mr-4 object-scale-down"
+              />
+              <div>
+                <div class="text-gray-300 text-lg">Nombre</div>
+                <div class="text-gray-400">
+                  Lorem ipsum dolor sit amet consectetur
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rounded bg-slate-600 bg-opacity-60 p-12">
+            <div class="text-slate-400 text-xl pb-8">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+              sequi, deleniti sapiente provident eligendi, placeat sunt vel cum
+              delectus tempore laboriosam libero. Adipisci exercitationem, iste
+              provident incidunt quia eligendi reprehenderit. Lorem ipsum, dolor
+              sit amet consectetur adipisicing elit. Ratione nihil perspiciatis
+              magnam placeat dolor reiciendis veniam odit ut distinctio,
+              suscipit modi laborum quos quo corporis, dicta delectus aliquid
+              inventore adipisci?
+            </div>
+            <div class="flex flex-row">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
+                width="45"
+                alt=""
+                class="mr-4 object-scale-down"
+              />
+              <div>
+                <div class="text-gray-300 text-lg">Nombre</div>
+                <div class="text-gray-400">
+                  Lorem ipsum dolor sit amet consectetur
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="flex justify-center items-center">
-          <img class="bg-cover bg-no-repeat" src="./img/Foto.png" alt="" />
+      </div>
+      <!--Fin opiniones-->
+
+      <!--Clientes-->
+      <div>
+        <div class="w-4/5 mx-auto py-20">
+          <div class="text-4xl text-slate-300 font-semibold italic pb-10">
+            Nuestros clientes
+          </div>
+          <div class="flex flex-row flex-wrap justify-evenly">
+            <img
+              class="object-scale-down"
+              width="25%"
+              src="./img/cliente_1.png"
+              alt=""
+            />
+            <img
+              class="object-scale-down"
+              width="20%"
+              src="./img/cliente_2.png"
+              alt=""
+            />
+            <img
+              class="object-scale-down"
+              width="15%"
+              src="./img/cliente_3.png"
+              alt=""
+            />
+            <img
+              class="object-scale-down"
+              width="15%"
+              src="./img/cliente_4.png"
+              alt=""
+            />
+            <img
+              class="object-scale-down"
+              width="20%"
+              src="./img/cliente_5.png"
+              alt=""
+            />
+            <img
+              class="object-scale-down"
+              width="15%"
+              src="./img/cliente_6.png"
+              alt=""
+            />
+            <img
+              class="object-scale-down"
+              width="15%"
+              src="./img/cliente_7.png"
+              alt=""
+            />
+            <img
+              class="object-scale-down"
+              width="11%"
+              src="./img/cliente_8.png"
+              alt=""
+            />
+            <img
+              class="object-scale-down"
+              width="12%"
+              src="./img/cliente_9.png"
+              alt=""
+            />
+            <img
+              class="object-scale-down"
+              width="10%"
+              src="./img/cliente_10.png"
+              alt=""
+            />
+          </div>
         </div>
-        <div>
+      </div>
+      <!--Fin clientes-->
+      <div class="sm:flex sm:justify-center">
+        <div
+          class="flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 sm:rounded-r-none"
+        >
+          <a href="#!">
+            <img
+              class="rounded-t-lg sm:rounded-tr-none"
+              src="https://tecdn.b-cdn.net/img/new/standard/city/041.webp"
+              alt="Hollywood Sign on The Hill"
+            />
+          </a>
+          <div class="p-6">
+            <h5
+              class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+            >
+              Card title
+            </h5>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              <small>Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 sm:rounded-none"
+        >
+          <a href="#!">
+            <img
+              class="rounded-t-lg sm:rounded-none"
+              src="https://tecdn.b-cdn.net/img/new/standard/city/042.webp"
+              alt="Palm Springs Road"
+            />
+          </a>
+          <div class="p-6">
+            <h5
+              class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+            >
+              Card title
+            </h5>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              <small>Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 sm:rounded-l-none"
+        >
+          <a href="#!">
+            <img
+              class="rounded-t-lg sm:rounded-tl-none"
+              src="https://tecdn.b-cdn.net/img/new/standard/city/043.webp"
+              alt="Los Angeles Skyscrapers"
+            />
+          </a>
+          <div class="p-6">
+            <h5
+              class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+            >
+              Card title
+            </h5>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              <small>Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 sm:rounded-l-none"
+        >
+          <a href="#!">
+            <img
+              class="rounded-t-lg sm:rounded-tl-none"
+              src="https://tecdn.b-cdn.net/img/new/standard/city/043.webp"
+              alt="Los Angeles Skyscrapers"
+            />
+          </a>
+          <div class="p-6">
+            <h5
+              class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+            >
+              Card title
+            </h5>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              <small>Last updated 3 mins ago</small>
+            </p>
+          </div>
         </div>
       </div>
     </div>
+  </body>
 
-    <!-- Fin quienes somos-->
+  <script>
+    const menuButton = document.querySelector("#mobile-menu");
 
-    <!--Clientes-->
-    <div>
-      <div class="w-4/5 mx-auto py-20">
-        <div class="text-4xl text-slate-300 font-semibold italic pb-10">
-          Nuestros clientes
-        </div>
-        <div class="flex flex-row flex-wrap justify-evenly">
-          <img class="object-scale-down" width="25%" src="./img/cliente_1.png" alt="" />
-          <img class="object-scale-down" width="20%" src="./img/cliente_2.png" alt="" />
-          <img class="object-scale-down" width="15%" src="./img/cliente_3.png" alt="" />
-          <img class="object-scale-down" width="15%" src="./img/cliente_4.png" alt="" />
-          <img class="object-scale-down" width="20%" src="./img/cliente_5.png" alt="" />
-          <img class="object-scale-down" width="15%" src="./img/cliente_6.png" alt="" />
-          <img class="object-scale-down" width="15%" src="./img/cliente_7.png" alt="" />
-          <img class="object-scale-down" width="11%" src="./img/cliente_8.png" alt="" />
-          <img class="object-scale-down" width="12%" src="./img/cliente_9.png" alt="" />
-          <img class="object-scale-down" width="10%" src="./img/cliente_10.png" alt="" />
-        </div>
-      </div>
-    </div>
-    <!--Fin clientes-->
+    menuButton.addEventListener("click", (e) => {
+      const menu = document.querySelector(".mobile-links");
 
-  </div>
-</body>
-
-<script>
-  const menuButton = document.querySelector("#mobile-menu");
-
-  menuButton.addEventListener("click", (e) => {
-    const menu = document.querySelector(".mobile-links");
-
-    menu.classList.toggle("hidden");
-  });
-</script>
-
+      menu.classList.toggle("hidden");
+    });
+  </script>
 </html>

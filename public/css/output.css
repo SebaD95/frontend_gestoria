@@ -500,9 +500,15 @@ video {
 .row-span-3 {
   grid-row: span 3 / span 3;
 }
+.row-start-3 {
+  grid-row-start: 3;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 .mb-4 {
   margin-bottom: 1rem;
@@ -528,8 +534,8 @@ video {
 .mt-12 {
   margin-top: 3rem;
 }
-.mt-20 {
-  margin-top: 5rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 .mt-24 {
   margin-top: 6rem;
@@ -623,6 +629,13 @@ video {
 .rounded-full {
   border-radius: 9999px;
 }
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
 .border-2 {
   border-width: 2px;
 }
@@ -650,6 +663,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(15 118 110 / var(--tw-bg-opacity));
 }
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -665,20 +682,31 @@ video {
 .bg-feature-image {
   background-image: linear-gradient(0deg,rgba(5, 50, 91, 0.84),rgba(8, 33, 63, 0.97)), url(https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg);
 }
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
 .bg-main-image {
   background-image: linear-gradient(0deg,rgba(5, 50, 91, 0.84),rgba(8, 33, 63, 0.97)), url(https://img.freepik.com/foto-gratis/dos-hombres-negocios-dandose-mano_1423-77.jpg?);
 }
 .bg-service-image_1 {
-  background-image: linear-gradient(0deg,rgba(5, 50, 91, 0.84),rgba(8, 33, 63, 0.97)), url(https://actualicese.com/_ig/img/fotos/calculadora-calculo-finanzas-contabi.jpg);
+  background-image: url(https://actualicese.com/_ig/img/fotos/calculadora-calculo-finanzas-contabi.jpg);
 }
 .bg-service-image_2 {
-  background-image: linear-gradient(0deg,rgba(5, 50, 91, 0.84),rgba(8, 33, 63, 0.97)), url(https://cba.ucb.edu.bo/blog/wp-content/uploads/2021/04/joven-usando-calculadora-calcular-facturas-oficina-casa_38391-114.jpg);
+  background-image: url(https://cba.ucb.edu.bo/blog/wp-content/uploads/2021/04/joven-usando-calculadora-calcular-facturas-oficina-casa_38391-114.jpg);
 }
 .bg-service-image_3 {
-  background-image: linear-gradient(0deg,rgba(5, 50, 91, 0.84),rgba(8, 33, 63, 0.97)), url(https://www.insunte.edu.mx/es/wp-content/uploads/2022/05/1584184812_412499_1584185534_noticia_normal-1200x675-1.png);
+  background-image: url(https://www.insunte.edu.mx/es/wp-content/uploads/2022/05/1584184812_412499_1584185534_noticia_normal-1200x675-1.png);
 }
 .bg-service-image_4 {
-  background-image: linear-gradient(0deg,rgba(5, 50, 91, 0.84),rgba(8, 33, 63, 0.97)), url(https://www.ucundinamarca.edu.co/images/2021/03/01/dia-contador.jpg);
+  background-image: url(https://www.ucundinamarca.edu.co/images/2021/03/01/dia-contador.jpg);
+}
+.from-\[\#05325B\] {
+  --tw-gradient-from: #05325B var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(5 50 91 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.to-\[\#08213F\] {
+  --tw-gradient-to: #08213F var(--tw-gradient-to-position);
 }
 .bg-cover {
   background-size: cover;
@@ -701,6 +729,9 @@ video {
 }
 .p-5 {
   padding: 1.25rem;
+}
+.p-6 {
+  padding: 1.5rem;
 }
 .p-8 {
   padding: 2rem;
@@ -780,11 +811,17 @@ video {
 .font-bold {
   font-weight: 700;
 }
+.font-medium {
+  font-weight: 500;
+}
 .font-semibold {
   font-weight: 600;
 }
 .italic {
   font-style: italic;
+}
+.leading-tight {
+  line-height: 1.25;
 }
 .text-gray-300 {
   --tw-text-opacity: 1;
@@ -794,6 +831,14 @@ video {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
+.text-neutral-600 {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
+}
+.text-neutral-800 {
+  --tw-text-opacity: 1;
+  color: rgb(38 38 38 / var(--tw-text-opacity));
+}
 .text-slate-300 {
   --tw-text-opacity: 1;
   color: rgb(203 213 225 / var(--tw-text-opacity));
@@ -801,6 +846,14 @@ video {
 .text-slate-400 {
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
+}
+.opacity-95 {
+  opacity: 0.95;
+}
+.shadow-\[0_2px_15px_-3px_rgba\(0\2c 0\2c 0\2c 0\.07\)\2c 0_10px_20px_-2px_rgba\(0\2c 0\2c 0\2c 0\.04\)\] {
+  --tw-shadow: 0 2px 15px -3px rgba(0,0,0,0.07),0 10px 20px -2px rgba(0,0,0,0.04);
+  --tw-shadow-colored: 0 2px 15px -3px var(--tw-shadow-color), 0 10px 20px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .link {
@@ -820,14 +873,74 @@ video {
   opacity: 0.7;
 }
 
+@media (prefers-color-scheme: dark) {
+
+  .dark\:bg-neutral-700 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(64 64 64 / var(--tw-bg-opacity));
+  }
+
+  .dark\:text-neutral-200 {
+    --tw-text-opacity: 1;
+    color: rgb(229 229 229 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-neutral-50 {
+    --tw-text-opacity: 1;
+    color: rgb(250 250 250 / var(--tw-text-opacity));
+  }
+}
+
 @media (min-width: 640px) {
+
+  .sm\:flex {
+    display: flex;
+  }
 
   .sm\:w-4\/5 {
     width: 80%;
   }
 
+  .sm\:shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .sm\:grow {
+    flex-grow: 1;
+  }
+
+  .sm\:basis-0 {
+    flex-basis: 0px;
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
+  }
+
+  .sm\:rounded-none {
+    border-radius: 0px;
+  }
+
+  .sm\:rounded-l-none {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .sm\:rounded-r-none {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .sm\:rounded-tl-none {
+    border-top-left-radius: 0px;
+  }
+
+  .sm\:rounded-tr-none {
+    border-top-right-radius: 0px;
   }
 }
 
